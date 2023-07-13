@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T15:43:37 IST" name="Default suite" finished-at="2023-07-13T15:43:42 IST" duration-ms="5193">
+  <suite started-at="2023-07-13T20:13:48 IST" name="Default suite" finished-at="2023-07-13T20:13:53 IST" duration-ms="4350">
     <groups>
     </groups>
-    <test started-at="2023-07-13T15:43:37 IST" name="Default test" finished-at="2023-07-13T15:43:42 IST" duration-ms="5193">
+    <test started-at="2023-07-13T20:13:48 IST" name="Default test" finished-at="2023-07-13T20:13:53 IST" duration-ms="4350">
       <class name="com.raghib.property.PropertyDemoTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T15:43:37 IST" name="setup" finished-at="2023-07-13T15:43:42 IST" duration-ms="4735" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T20:13:48 IST" name="setup" finished-at="2023-07-13T20:13:52 IST" duration-ms="4029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="readPropertyTest()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T15:43:42 IST" name="readPropertyTest" finished-at="2023-07-13T15:43:42 IST" duration-ms="16" status="PASS">
+        <test-method signature="readPropertyTest()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T20:13:52 IST" name="readPropertyTest" finished-at="2023-07-13T20:13:52 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readPropertyTest -->
-        <test-method is-config="true" signature="setDown()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T15:43:42 IST" name="setDown" finished-at="2023-07-13T15:43:42 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="setDown()[pri:0, instance:com.raghib.property.PropertyDemoTest@3c22fc4c]" started-at="2023-07-13T20:13:52 IST" name="setDown" finished-at="2023-07-13T20:13:53 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
