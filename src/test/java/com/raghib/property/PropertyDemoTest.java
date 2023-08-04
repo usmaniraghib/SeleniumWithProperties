@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 import com.raghib.config.Configuration;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class PropertyDemoTest {
 	Configuration config;
 	WebDriver webDriverObj = null;
@@ -15,7 +17,8 @@ public class PropertyDemoTest {
 	@BeforeTest
 	public void setup() throws Exception {
 		config = new Configuration();
-		System.setProperty(config.getChromeDriver(),config.getBrowserChromeDriver());
+		//System.setProperty(config.getChromeDriver(),config.getBrowserChromeDriver());
+		WebDriverManager.chromedriver().setup();
 		webDriverObj = new ChromeDriver();
 		webDriverObj.get(config.getApplicationURL());
 		webDriverObj.manage().window().maximize();
